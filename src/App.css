@@ -1,0 +1,150 @@
+/* whatsapp contact fixed */
+.whatsappfix{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #01e675;
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  z-index: 5;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.whatsappfix > a{
+  font-size: 40px;
+  display: block;
+  color: white;
+  
+
+ 
+}
+.feebback{
+
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #dcf116;
+  position: fixed;
+  bottom: 80px;
+  right: 10px;
+  z-index: 5;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.feebback > i{
+
+  font-size: 20px;
+  display: block;
+  color: rgb(0, 0, 0);
+  
+
+
+}
+
+
+
+
+
+/* navbar css */
+
+.customnavbar{
+  margin: 0;
+  padding:0;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  height: 50px ;
+  background-color: rgb(2, 35, 91);
+  color: #92b1e1;
+  position: relative;
+  
+}
+
+.navli{
+  text-decoration: none;
+  padding: 10px 0px;
+}
+
+
+.hidenav > ul > li {
+  list-style: none;
+  color: #92b1e1;
+ padding: 0px 10px;
+
+}
+
+.hidenav > ul > li>a {
+
+  color: #92b1e1;
+  display: block;
+
+}
+
+.hidenav{
+  margin-right: 50px;
+}
+
+/* .navlinks >i{
+  display: none;
+} */
+
+.hidenav>ul{
+  display:flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content:right;
+  margin-top: 2px;
+  z-index: 9;
+
+
+}
+
+@media only screen and (max-width: 768px) {
+
+  .navlinks >i{
+    
+    display: inline;
+
+  }
+
+  .hidenav{
+    display: none;
+  }
+
+  .customnavbar{
+    margin: 0;
+    padding:0;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto ;
+    background-color: rgb(2, 35, 91);
+    color: #92b1e1;
+    position: relative;
+    
+  }
+
+  .hidenav>ul{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content:right;
+    margin-top: 50px;
+    z-index: 9;
+  }
+
+  .hidenav>ul>li{
+    background-color: rgb(2, 35, 91);
+  }
+  
+ 
+
+}
