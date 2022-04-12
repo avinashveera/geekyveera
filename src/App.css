@@ -5,8 +5,9 @@
   border-radius: 50%;
   background-color: #01e675;
   position: fixed;
-  bottom: 20px;
+  bottom: 80px;
   right: 10px;
+
   z-index: 5;
   overflow: hidden;
   display: flex;
@@ -24,24 +25,27 @@
 }
 .feebback{
 
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
+  width: 100px;
+  height: 30px;
+  border-radius: 10%;
   background-color: #dcf116;
+  color: black;
   position: fixed;
-  bottom: 80px;
+  bottom: 30px;
   right: 10px;
   z-index: 5;
   overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
+  border: 1px solig black;
 
 }
 
-.feebback > i{
-
-  font-size: 20px;
+.feebback > p{
+text-transform: capitalize;
+margin-top:  13px;
+  font-size: 15px;
   display: block;
   color: rgb(0, 0, 0);
   
