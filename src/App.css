@@ -62,93 +62,63 @@ margin-top:  13px;
 .customnavbar{
   margin: 0;
   padding:0;
-  display:flex;
-  flex-direction: row;
-  align-items: center;
   height: 50px ;
-  background-color: rgb(2, 35, 91);
+  background-color: rgb(254, 254, 255);
   color: #92b1e1;
   position: relative;
   
 }
 
-.navli{
-  text-decoration: none;
-  padding: 10px 0px;
+
+.hidenav{
+  width: 100vw;
+  height: 100vh;
+  background:rgb(2, 35, 91);
+  z-index: 5;
+  position:fixed;
+  top:0px
 }
 
-
-.hidenav > ul > li {
-  list-style: none;
-  color: #92b1e1;
- padding: 0px 10px;
-
-}
-
-.hidenav > ul > li>a {
-
-  color: #92b1e1;
-  display: block;
-
+@media screen and (min-width: 900px) {
+  .hidenav{
+    width: 50vw;
+  }
 }
 
 .hidenav{
-  margin-right: 50px;
+  transform: translateX(-100vw);
+  transition: ease-in-out 600ms;
+
+}
+.togglemenu:hover{
+  background-color: rgba(0, 0, 0, 0.4);
+
+
+}
+.hidenav >ul{
+margin-top: 70px;
+  padding-left: 0;
+}
+
+.hidenav >ul >li{
+  list-style: none;
+  background-color: rgba(180, 170, 170, 0.3)
+
+}
+
+.hidenav >ul >li >a{
+  text-decoration: none;
+  padding: 10px 0px;
+text-align: center;
+margin-bottom: 2px;
+color: white;
+  display: block;
+}
+.hidenav >ul >li >a:hover{
+  background-color: rgba(0,0,0,0.3);
 }
 
 /* .navlinks >i{
   display: none;
 } */
 
-.hidenav>ul{
-  display:flex;
-  flex-direction: row;
-  align-items:center;
-  justify-content:right;
-  margin-top: 2px;
-  z-index: 9;
-
-
-}
-
-@media only screen and (max-width: 768px) {
-
-  .navlinks >i{
-    
-    display: inline;
-
-  }
-
-  .hidenav{
-    display: none;
-  }
-
-  .customnavbar{
-    margin: 0;
-    padding:0;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    height: auto ;
-    background-color: rgb(2, 35, 91);
-    color: #92b1e1;
-    position: relative;
-    
-  }
-
-  .hidenav>ul{
-    display:flex;
-    flex-direction: column;
-    align-items:center;
-    justify-content:right;
-    margin-top: 50px;
-    z-index: 9;
-  }
-
-  .hidenav>ul>li{
-    background-color: rgb(2, 35, 91);
-  }
-  
- 
-
-}

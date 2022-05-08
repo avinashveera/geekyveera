@@ -7,22 +7,19 @@ export const Navbar = (props) => {
 
 
   const shownav = () => {
-
     const hdnav = document.getElementsByClassName("hidenav")
-
-    if (hdnav[0].style.display === "none") {
-      hdnav[0].style.display = "block";
-
-    } else {
-      hdnav[0].style.display = "none";
-
-    }
+      hdnav[0].style.transform= "translateX(0)";
+  }
+  const hidenav = () => {
+    const hdnav = document.getElementsByClassName("hidenav")
+      hdnav[0].style.transform= "translateX(-100vw)";
   }
   return (
 
     <>
+     
       <div className='customnavbar'>
-
+        
         <div className='navlogo' style={{ height: "100%" }}>
 
           <Link to="/"><img style={{ height: "40px", width: "50vw", overflow: "hidden" }} src={logo} alt="" srcset="" /></Link>
@@ -34,13 +31,15 @@ export const Navbar = (props) => {
 
         <div className='navlinks' style={{ width: "100%", height: "100%" }} >
 
-          <i onClick={shownav} style={{ color: "white", fontSize: "35px", position: "absolute", right: "20px", top: "5px", padding: "0px 10px" }} className="fa-solid fa-bars"></i>
+          <i onClick={shownav} className="fa-solid fa-bars togglemenu" style={{position:"absolute",right:"20px",top:"5px",padding:"10px"}}></i>
 
-          <div className="hidenav" style={{ display: "none" }}>
+          <div onClick={hidenav} className="hidenav">
 
+     
+          <i onClick={hidenav} class="fa-solid fa-rectangle-xmark" style={{position:"absolute",right:"40px",top:"15px",fontSize:"25px"}}></i>
 
-
-            <ul style={{ marginTop: "5px", marginRight: "20px", display: "flex", alignItems: "center", justifyContent: "right" }} onClick={shownav}>
+            <ul >
+            
               <li>
                 <Link className="navli" to="/">Home</Link>
               </li>

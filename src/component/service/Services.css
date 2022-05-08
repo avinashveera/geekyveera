@@ -1,0 +1,13 @@
+.featuresec{
+    width: 300px;
+    height: 500px;
+    border: 1px solid red;
+}
+
+.fecsec1{
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+}

@@ -21,7 +21,25 @@ const Features = () => {
 
     </div>
     
-    <Onepage />
+  <div className='featuresec'>
+
+    <div className='fecsec1'>
+
+    <h3>ONE PAGE WEBSITE</h3>
+
+    <h5>Pricing</h5>
+    <p style={{marginBottom:"50px",fontSize:"30px"}}>Rs. 299/</p>
+
+    <p>Responsive Design</p>
+    <p>2 Page</p>
+    <p>Social Media Icons</p>
+    <p>Design Customization</p>
+    <a href="">
+      <button>example</button>
+    </a>
+    </div>
+
+  </div>
     </>
   )
 }
