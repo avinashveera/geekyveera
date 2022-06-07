@@ -11,3 +11,51 @@
     border-radius: 10px;
     display: none;
 }
+
+.customnavbar{
+    margin: 0;
+    top: 0;
+    padding:0;
+    height: 50px ;
+    background-color: rgb(254, 254, 255);
+    color: #92b1e1;
+    position: sticky;
+    width: 100%;
+    z-index: 10;
+    box-shadow: 5px 2px rgb(214, 198, 198);
+    
+  }
+  
+
+
+
+
+  /* circle wave  */
+
+  .blob {
+
+	box-shadow: 0 0 0 0 rgb(60, 155, 52);
+	transform: scale(1);
+	animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(33, 226, 43, 0.7);
+	}
+
+	70% {
+		transform: scale(1);
+		box-shadow: 0 0 0 20px rgba(60, 196, 19, 0);
+	}
+
+	100% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(46, 230, 0, 0);
+	}
+}
+
+/*  enquiry  */
+
+

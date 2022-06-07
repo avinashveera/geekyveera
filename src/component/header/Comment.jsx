@@ -69,7 +69,7 @@ const Comment = (props) => {
             <form style={{position:"absolute",display:"flex",alignItems:"center",justifyContent:"center",flexDirection:"column"}}>
                   
                     <input name='user' onChange={handlechange} value={rating} style={{width:"250px",height:"30px",marginLeft:"25px",borderRadius:"10px",border:"none",paddingLeft:"5px"}}  type="text" id='name' placeholder='enter your name' />
-                    <textarea name='comment' onChange={handlechange1} value={usercomment} style={{margin:"20px 0px",width:"250px",height:"100px",marginLeft:"25px",borderRadius:"10px",paddingLeft:"5px"}} placeholder="enter your feed back" id='comment' />
+                    <textarea name='comment' onChange={handlechange1} value={usercomment} style={{margin:"20px 0px",width:"250px",height:"100px",marginLeft:"25px",borderRadius:"10px",paddingLeft:"5px"}} placeholder="enter your message" id='comment' />
                     <button onClick={submithandle} type="button" style={{padding:"5px 20px",border:"1px solid #01e675" ,backgroundColor:"#01e675",color:"white",borderRadius:"10px"}}>Submit</button>
                    
             </form>
