@@ -1,6 +1,7 @@
 import React from 'react';
 import webdev from "../../image/bluebg.jpg"
-import Onepage from "./Onepage"
+//import Onepage from "./Onepage"
+import Featopt from "./featopt"
 
 const Features = () => {
   return (
@@ -19,27 +20,47 @@ const Features = () => {
       
           </div>
 
+
+
+
+ <div className='featuresec row'>
+
+
+<Featopt 
+type="Landing website"
+price="999"
+feature={["responsive design","3 pages","home" ,"about","service"]}
+
+/>
+
+
+<Featopt 
+type="Multipage"
+price="2000"
+feature={["responsive design","bootstrap5","5 pages website","social media icon",]}
+
+/>
+
+
+<Featopt 
+type="Ecommerce website"
+price="5000"
+feature={["responsive design","multipages","social media icon","dashboard","backend","database"]}
+
+/>
+
+
+
+
+
+</div>
+
+
     </div>
     
-  <div className='featuresec'>
+ 
 
-    <div className='fecsec1'>
 
-    <h3>ONE PAGE WEBSITE</h3>
-
-    <h5>Pricing</h5>
-    <p style={{marginBottom:"50px",fontSize:"30px"}}>Rs. 299/</p>
-
-    <p>Responsive Design</p>
-    <p>2 Page</p>
-    <p>Social Media Icons</p>
-    <p>Design Customization</p>
-    <a href="">
-      <button>example</button>
-    </a>
-    </div>
-
-  </div>
     </>
   )
 }

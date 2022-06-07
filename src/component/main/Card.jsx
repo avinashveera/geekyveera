@@ -5,9 +5,7 @@ const Card = (props) => {
 
     return (
         <>
-
-
-            <div className='col-md-4 my-2 hoverclass' >
+         <div className='col-md-4 my-2 hoverclass' >
                 <div className='greenbc'>
 
                     <p style={{ color: "#fff", textAlign: "center" }}>{props.title}</p>
