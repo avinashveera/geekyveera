@@ -7,6 +7,7 @@ import { Slider } from './Slider';
 import Digimage from "../../image/digital marketing.png" 
 import Servimg from "../../image/service.png"
 import Ourprocess from './Ourprocess'
+import Soft from "../../image/soft.png"
 
 export const Main = () => {
   return (
@@ -62,7 +63,9 @@ export const Main = () => {
        </div> 
 
    </div>
-
+<div className='container-fluid'>
+  <img style={{width:"100vw"}} src={Soft} alt=''/>
+</div>
   
 
   <Ourprocess />

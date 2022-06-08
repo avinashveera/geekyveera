@@ -17,7 +17,6 @@ const Card = (props) => {
 
 
 
-
                     <div className='overridediv'>
                         
 
