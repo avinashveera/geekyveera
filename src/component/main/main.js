@@ -5,15 +5,22 @@ import "./Main.css"
 import Webimage from "../../image/webdevlopment.png" 
 import { Slider } from './Slider';
 import Digimage from "../../image/digital marketing.png" 
+import Servimg from "../../image/service.png"
+import Ourprocess from './Ourprocess'
 
 export const Main = () => {
   return (
    <>
+   
    <Slider/>
 
     <About/>  
    
    <div className='container'>
+
+       <div style={{display:"flex",justifyContent:"center"}}>
+         <img style={{height:"300px",width:"300px"}} src={Servimg} alt="img" />
+       </div>
        <p className='my-4' style={{textAlign:"center",fontSize:"25px"}}>Services</p>
        <div className='row mx-auto'>
  
@@ -55,6 +62,10 @@ export const Main = () => {
        </div> 
 
    </div>
+
+  
+
+  <Ourprocess />
  
    </>
   )

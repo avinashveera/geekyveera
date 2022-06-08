@@ -21,7 +21,7 @@ const Card = (props) => {
                     <div className='overridediv'>
                         
 
-                        <p className='my-auto' style={{textAlign:"center",transform: "translateY(40%)",padding:"10px"}}>
+                        <p className='my-auto' style={{textAlign:"center",transform: "translateY(0%)",padding:"30px 10px"}}>
                        {props.text}
                         </p>
 

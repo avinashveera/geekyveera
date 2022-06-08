@@ -22,7 +22,7 @@
 /* card css apply here */
 
 .greenbc{
-    background-color: #019934;
+    background-color: #03235C;
     padding-bottom: 20px;
 margin-bottom: 20px;
 position: relative;
@@ -52,4 +52,21 @@ position: relative;
 
 }
 
+
+/* our process page css  */
+
+.custprocess{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.custprocess >h4 {
+    margin: 30px 0px;
+}
+.custprocess >p {
+    text-align: center;
+    padding: 0px 50px;
+}
 
