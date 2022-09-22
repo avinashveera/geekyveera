@@ -22,7 +22,7 @@ export const Footer = () => {
 
 </div>
 <div className='col-md-3 my-2'>
-<p className='mx-3' style={{fontFamily:"'Helvetica",fontSize:"16px"}}>OTHER LINKS</p><hr/>
+<p className='mx-3' style={{fontFamily:"'Helvetica",fontSize:"16px"}}>OUR PATNERS OFFICES</p><hr/>
 
  <Otherlink/>
 </div>

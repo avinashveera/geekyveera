@@ -6,7 +6,19 @@ const Otherlink = () => {
     
     <ul className='footernav'>
          <li>
-             <Link to='/web'>Our Client</Link>
+             <Link to='/jagdishpur'>Jagdishpur</Link>
+         </li>
+
+         <li>
+             <Link to='/bihiya'>Bihiya</Link>
+         </li>
+
+         <li>
+             <Link to='/piro'>Piro</Link>
+         </li>
+
+         <li>
+             <Link to='/maliyabagh'>Maliyabagh</Link>
          </li>
 
    

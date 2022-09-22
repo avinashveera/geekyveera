@@ -45,7 +45,7 @@ export const Navbar = (props) => {
 
           <div onClick={hidenav} className="hidenav">
      
-          <i onClick={hidenav} class="fa-solid fa-rectangle-xmark" style={{position:"absolute",right:"40px",top:"15px",fontSize:"25px"}}></i>
+          {/* <i onClick={hidenav} class="fa-solid fa-rectangle-xmark" style={{position:"absolute",right:"40px",top:"15px",fontSize:"25px"}}></i> */}
 
             <ul >
             

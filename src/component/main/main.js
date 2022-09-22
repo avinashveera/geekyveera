@@ -13,7 +13,9 @@ export const Main = () => {
   return (
    <>
    
-   <Slider/>
+   <Slider
+   city="ara"
+   />
 
     <About/>  
    
@@ -30,9 +32,7 @@ export const Main = () => {
        
         title="Website Devlopment"
         image={Webimage}
-        text=" Every successful business starts with a great website and we deliver you the same.
-         Designing a great website requires skills and creative insights and
-          we have it both that turns your visual image into virtual reality."
+        text=" the need of Website Design done by knowledgeable Website Designer is unquestionable. As a functional web design service in Ara, Bihar, India. "
         />
 
 <Card
