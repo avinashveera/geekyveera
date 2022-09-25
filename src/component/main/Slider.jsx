@@ -1,14 +1,8 @@
-import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom';
 import img1 from '../../image/slider1.png'
 import img2 from '../../image/slider2.png'
 // import img3 from '../../img/IMG_7886.JPG'
 export const Slider = (city) => {
-
-
-  useEffect(() => {
-
-
 
     //text typing
 
@@ -53,8 +47,10 @@ export const Slider = (city) => {
       }, delta);
     };
 
-    window.onload =
-      function () {
+     
+    
+      window.onload =
+     function () {
         var elements = document.getElementsByClassName('typewrite');
         for (var i = 0; i < elements.length; i++) {
           var toRotate = elements[i].getAttribute('data-type');
@@ -69,10 +65,11 @@ export const Slider = (city) => {
         css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
         document.body.appendChild(css);
       };
+ 
+
 
     //text typing 
 
-  }, [])
 
   return (
     <>
@@ -85,24 +82,24 @@ export const Slider = (city) => {
         </div>
         <div className="carousel-inner">
           <div className="carousel-item active">
-            <img src={img1} style={{ height: "50vw" }} className="d-block w-100" alt=".1st" />
+            <img src={img1} style={{ height: "50vw" }} className="d-block w-100" alt="web design and devlopment in arrah" />
             <div className="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p style={{ color: "black" }}>Some representative placeholder content for the first slide.</p>
+              <h5>best website company in arrah</h5>
+              <p style={{ color: "black" }}>best website company in arrah</p>
             </div>
           </div>
           <div className="carousel-item">
-            <img src={img2} className="d-block w-100" style={{ height: "50vw" }} alt="..." />
+            <img src={img2} className="d-block w-100" style={{ height: "50vw" }} alt="web design and devlopment in arrah" />
             <div className="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>Some representative placeholder content for the second slide.</p>
+              <h5>best website company in arrah</h5>
+              <p>Website design and devlopment in arrah</p>
             </div>
           </div>
           <div className="carousel-item">
-            <img src={img1} style={{ height: "50vw" }} className="d-block w-100" alt="..." />
+            <img src={img1} style={{ height: "50vw" }} className="d-block w-100" alt="web design and devlopment in arrah" />
             <div className="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>Some representative placeholder content for the third slide.</p>
+              <h5>best website company in arrah</h5>
+              <p>website design and devlopment in arrah</p>
             </div>
           </div>
         </div>

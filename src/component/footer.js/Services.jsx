@@ -7,7 +7,7 @@ const Services = () => {
     
     <ul className='footernav'>
          <li>
-             <Link to='/web'>Website Services</Link>
+             <Link to='/website-services'>Website Services</Link>
          </li>
 
          <li>

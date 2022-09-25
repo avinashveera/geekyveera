@@ -22,7 +22,7 @@ export const Main = () => {
    <div className='container'>
 
        <div style={{display:"flex",justifyContent:"center"}}>
-         <img style={{height:"300px",width:"300px"}} src={Servimg} alt="img" />
+         <img style={{height:"300px",width:"300px"}} src={Servimg} alt="web design and devlopment in arrah" />
        </div>
        <p className='my-4' style={{textAlign:"center",fontSize:"25px"}}>Services</p>
        <div className='row mx-auto'>
@@ -64,7 +64,7 @@ export const Main = () => {
 
    </div>
 <div className='container-fluid'>
-  <img style={{width:"100vw"}} src={Soft} alt=''/>
+  <img style={{width:"100vw"}} src={Soft} alt='web design and devlopment in arrah'/>
 </div>
   
 

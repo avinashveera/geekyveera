@@ -8,7 +8,7 @@ const Aboutus = () => {
 
     <div style={{display:"flex",flexDirection:"column",alignItems:"center",justifyContent:"center",marginBottom:"10px",marginTop:"10px"}} className='col-md-6'>
 
-        <h1 style={{color:"rgb(1, 153, 52)"}} >WHO WE ARE</h1>
+        <h1 style={{color:"rgb(1, 153, 52)"}} >web design and devlopment in arrah</h1>
 
         <p style={{margin:"10px 50px",color:"gray"}}>
         We are a leading Web development company that offers top-rated 

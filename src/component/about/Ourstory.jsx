@@ -37,9 +37,9 @@ const Ourstory = () => {
 
         <div style={{width:"300px",position:"absolute",top:"280px",left:"50px",backgroundColor:"#019934",fontSize:"15px",color:"white",padding:"20px"}}>
             <p>
-            veera software  was founded in 2018 by Charlie Herke and Greg Smuk. Inspired by our experiences in the industry, we decided to start our own digital agency, focused on creativity, customer service and results.
+            veera software  was started in arrah. Inspired by our experiences in the industry, we decided to start our own digital agency, focused on creativity, customer service and results.
            <br/>
-we started designing<span id="showtext" style={{display:"none"}}> and building websites for local companies across bihar, in many cases helping small businesses find their first foot on the digital ladder. Honesty, good value, and helpful advice that’s accessible to everyone has always been what we’re about, right from the very start.
+we started designing<span id="showtext" style={{display:"none"}}> and building websites for local companies across arrah, in many cases helping small businesses find their first foot on the digital ladder. Honesty, good value, and helpful advice that’s accessible to everyone has always been what we’re about, right from the very start.
  <br/>
 Over the years, we’ve slowly and steadily expanded our services and our team of digital experts, growing to offer ecommerce, digital marketing, search and content writing, all while developing our approach to website design and development.
 </span><button id="buttnchange" onClick={show} style={{border:"none",padding:"2px",background:"none",color:"#92b1e1"}}> ...see more</button> </p>

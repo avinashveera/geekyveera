@@ -8,6 +8,7 @@ import Jagdishpur from "./component/OfficeArea/Jagdishpur"
 import Bihiya from './component/OfficeArea/Bihiya';
 import Piro from './component/OfficeArea/Piro';
 import Maliyabagh from './component/OfficeArea/Maliyabagh';
+import WebsiteServices from './component/service/WebsiteServices';
 import {
   BrowserRouter,
   Routes,
@@ -29,7 +30,7 @@ function App() {
   <Route path="/bihiya" element={<Bihiya/>}></Route>
   <Route path="/piro" element={<Piro/>}></Route>
   <Route path="maliyabagh" element={<Maliyabagh/>}></Route>
-  
+  <Route path="/website-services" element={<WebsiteServices/>}></Route>
 
   </Routes>
  
