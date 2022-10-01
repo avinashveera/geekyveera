@@ -74,29 +74,29 @@ export const Slider = (city) => {
   return (
     <>
 
-      <div id="carouselExampleCaptions" className="carousel slide my-2" data-bs-ride="carousel" >
-        <div className="carousel-indicators">
+      <div id="carouselExampleCaptions" className=" carousel slide my-2" data-bs-ride="carousel" style={{width:"80%",marginLeft:"10%"}} >
+        <div className="container carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-        <div className="carousel-inner">
-          <div className="carousel-item active">
-            <img src={img1} style={{ height: "50vw" }} className="d-block w-100" alt="web design and devlopment in arrah" />
+        <div className="container carousel-inner">
+          <div className="container carousel-item active">
+            <img src={img1} style={{ height:"40vw" }} className="d-block w-100" alt="web design and devlopment in arrah" />
             <div className="carousel-caption d-none d-md-block">
               <h5>best website company in arrah</h5>
               <p style={{ color: "black" }}>best website company in arrah</p>
             </div>
           </div>
           <div className="carousel-item">
-            <img src={img2} className="d-block w-100" style={{ height: "50vw" }} alt="web design and devlopment in arrah" />
+            <img src={img2} className="d-block w-100" style={{ height: "40vw" }} alt="web design and devlopment in arrah" />
             <div className="carousel-caption d-none d-md-block">
               <h5>best website company in arrah</h5>
               <p>Website design and devlopment in arrah</p>
             </div>
           </div>
           <div className="carousel-item">
-            <img src={img1} style={{ height: "50vw" }} className="d-block w-100" alt="web design and devlopment in arrah" />
+            <img src={img1} style={{ height: "40vw" }} className="d-block w-100" alt="web design and devlopment in arrah" />
             <div className="carousel-caption d-none d-md-block">
               <h5>best website company in arrah</h5>
               <p>website design and devlopment in arrah</p>
@@ -117,7 +117,7 @@ export const Slider = (city) => {
 
 
             <h1>
-              <Link style={{ textDecoration: "none", color: "#fff", fontWeight: "299" }} to="#" className="typewrite" data-period="2000" data-type={`[ "website design in ${city.city}", "website development in ${city.city}", "Website builder in ${city.city}", "DigitalMarketing Company ${city.city}" ]`}>
+              <Link  style={{ textDecoration: "none", color: "#fff", fontWeight: "150" }} to="#" className="typewrite" data-period="2000" data-type={`[ "website design in ${city.city}", "website development in ${city.city}", "Website builder in ${city.city}", "DigitalMarketing Company ${city.city}" ]`}>
                 <span className="wrap"></span>
               </Link>
             </h1>

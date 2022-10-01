@@ -9,6 +9,7 @@ import Bihiya from './component/OfficeArea/Bihiya';
 import Piro from './component/OfficeArea/Piro';
 import Maliyabagh from './component/OfficeArea/Maliyabagh';
 import WebsiteServices from './component/service/WebsiteServices';
+import Cv from './component/about/Cv';
 import {
   BrowserRouter,
   Routes,
@@ -31,6 +32,7 @@ function App() {
   <Route path="/piro" element={<Piro/>}></Route>
   <Route path="maliyabagh" element={<Maliyabagh/>}></Route>
   <Route path="/website-services" element={<WebsiteServices/>}></Route>
+  <Route path="/cv" element={<Cv/>}></Route>
 
   </Routes>
  

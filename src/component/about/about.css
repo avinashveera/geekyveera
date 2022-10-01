@@ -21,3 +21,13 @@
 .hideschroll::-webkit-scrollbar {
     display: none;
   }
+
+
+  /* my cv style */
+
+  .contactclass > li{
+      list-style-type: none;
+      line-height: 25px;
+      color: rgb(182, 174, 174);
+      font-size: 13px;
+  }

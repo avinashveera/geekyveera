@@ -6,7 +6,7 @@ export const about = () => {
       
        <div className='container'>
 
-           <p style={{borderBottom:"4px solid #019934",fontSize:"25px",fontWeight:"2px"}}>website Desing in ara</p>
+           <p style={{borderBottom:"4px solid #019934",fontSize:"20px",fontWeight:"2px"}}>DigitalMarketing in Arrah</p>
            
 
 
