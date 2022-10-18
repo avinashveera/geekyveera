@@ -7,7 +7,7 @@ const header2 = () => {
 
       <div style={{height:"100%",width:"500px",maxWidth:"100%" ,padding:"20px"}} className='secondHeader1'>
 
-        <h1 >Build,Grow And <br/> Manage Your Brand</h1>
+        <h1 >Build, Grow And <br/> Manage Your Brand</h1>
         <p style={{color:"grey"}}>we examine your idea to develop a object roadmap with clear milestone and deliverable, detailed estimation and intractive prototype  we help you select technology stack that is best fit for your product</p>
 
 
