@@ -21,7 +21,8 @@ const Header = () => {
 
 
   return (<>
-  <Navbar  showfc={showcomment}  />
+
+<Navbar  showfc={showcomment}  />
   <Comment  hidefc={hidecomment}/>
     
   </>

@@ -8,16 +8,21 @@ import Digimage from "../../image/digital marketing.png"
 import Servimg from "../../image/service.png"
 import Ourprocess from './Ourprocess'
 import Soft from "../../image/soft.png"
+import Header2 from '../header/Header2'
+
 
 export const Main = () => {
   return (
    <>
-   
-   <Slider
-   city="ara"
-   />
+  <Header2/>
+   <eader2 />
+
 
     <About/>  
+
+    <Slider
+   city="ara"
+   />
    
    <div className='container'>
 

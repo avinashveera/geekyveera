@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import logo from "../../image/veerasoft.png"
 
+
 export const Navbar = (props) => {
 
 //hello veera
@@ -20,7 +21,7 @@ export const Navbar = (props) => {
 
     <>
      
-      <div className='customnavbar'>
+      <div style={{ height: "100%" }} className='customnavbar'>
 
         
         
@@ -38,7 +39,7 @@ export const Navbar = (props) => {
         
 
 
-        <div className='navlinks' style={{ width: "100%", height: "100%" }} >
+        <div className='navlinks' style={{ width: "100%", height: "100" }} >
 
        
           <i onClick={shownav} className="fa-solid fa-bars togglemenu" style={{position:"absolute",right:"20px",top:"5px",padding:"10px"}}></i>
@@ -91,6 +92,8 @@ export const Navbar = (props) => {
 
 
       </div>
+
+
 
     </>
   )
