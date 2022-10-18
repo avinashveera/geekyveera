@@ -1,5 +1,5 @@
 import React from 'react'
-import img3d from "../../image/3d.png"
+import img3d from "../../image/3dimg.png"
 
 const header2 = () => {
   return (
