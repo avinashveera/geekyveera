@@ -15,7 +15,6 @@ export const Main = () => {
   return (
    <>
   <Header2/>
-   <eader2 />
 
 
     <About/>  
